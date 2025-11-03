@@ -9,5 +9,7 @@ services:
       POSTGRES_PASSWORD: user 
       POSTGRES_DB: my_db          
     volumes:
-      - ./database:/var/lib/postgresql/data
-  
+      - ./database:/data/postgres
+
+volumes:
+  postgres:
