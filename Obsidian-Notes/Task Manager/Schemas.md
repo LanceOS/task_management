@@ -1,15 +1,25 @@
 
 
+Schema Base
+-  id
+-  createdAt
+-  isDeleted
+-  updatedAt
+-  type
+
+Journal
+-  base
+-  action
+-  desc
 
 Task
 -  name
 -  desc
--  id
 -  userId
 -  taskFolderId
 
 Task Folder
 -  name
--  id
 -  desc
 -  userId
+
